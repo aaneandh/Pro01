@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1px" width=50%>
+        <thead>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Akhil</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Anand</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Arun</td>
+            <td>21</td>
+        </tr>
+    </table>
+
+    <form action="index.html">
+        <div>
+            <label for="">First Name</label>
+        </div>
+        <div>
+            <input type="text" placeholder="Enter Your Name"name=fname required>
+        </div>
+        <div>
+            <label for="">Last Name</label>
+        </div>
+        <div>
+            <input type="text" placeholder="Last Name"name=lname>
+        </div>
+        <div>
+            <label for="">Email</label>
+        </div>
+        <div>
+            <input type="email" placeholder="Email"name=email>
+        </div>
+        <div>
+            <label for="">Age</label>
+        </div>
+        <div>
+            <input type="number" placeholder="Age"name=age min="18" max="30">
+        </div>
+        <div>
+            <label for="">User Name</label>
+        </div>
+        <div>
+            <input type="text" placeholder="User Name" name=user minlength="4" maxlength="12" required>
+        </div>
+        <div>
+            <label for="">PassWord</label>
+        </div>
+        <div>
+            <input type="password" placeholder="Password" name=pwd minlength=8 max=20>
+        </div>
+        <div>
+            <label for="">Joining Date</label>
+        </div>
+        <div>
+            <input type="date" name=date>
+        </div>
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
